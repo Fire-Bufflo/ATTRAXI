@@ -210,6 +210,7 @@ h2 {
 .hero-visual {
   display: flex;
   justify-content: flex-end;
+  margin-top: -1.2rem;
 }
 
 .visual-card {
