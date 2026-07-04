@@ -485,9 +485,20 @@ h2 {
     padding-top: 2rem;
   }
 
+  .hero-visual {
+    margin-top: 0;
+  }
+
+  .hero-image {
+    min-height: 220px;
+    height: 220px;
+    max-height: 280px;
+  }
+
   .contact-card {
     padding: 1.4rem;
   }
+
 
   .brand-grid {
     grid-template-columns: 1fr;
