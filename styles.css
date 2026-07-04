@@ -246,22 +246,20 @@ h2 {
   padding: 0.4rem;
 }
 
-.video-frame {
+.hero-image {
   min-height: 280px;
   border-radius: 1rem;
-  background: linear-gradient(135deg, rgba(139,124,255,0.95), rgba(40,212,180,0.95));
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(139,124,255,0.15), rgba(40,212,180,0.15));
   display: grid;
   place-items: center;
 }
 
-.play-badge {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: rgba(6, 8, 22, 0.8);
-  font-size: 1.3rem;
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .metric-list {
